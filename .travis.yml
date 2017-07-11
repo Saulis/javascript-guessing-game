@@ -8,7 +8,6 @@ cache:
     - node_modules
 
 addons:
-  firefox: latest
   google-chrome: latest
 
 install:
