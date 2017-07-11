@@ -2,15 +2,13 @@ sudo: true
 language: node_js
 node_js: stable
 
-addons:
-  sauce_connect: true
-
 cache:
   directories:
     - node_modules
 
 addons:
   google-chrome: latest
+  sauce_connect: true
 
 install:
   - npm install
