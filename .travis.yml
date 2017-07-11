@@ -3,6 +3,9 @@ dist: trusty
 language: node_js
 node_js: stable
 
+addons:
+  sauce_connect: true
+
 cache:
   directories:
     - node_modules
